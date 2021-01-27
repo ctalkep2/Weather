@@ -1,0 +1,6 @@
+{
+	"port": 5000,
+	"dbUri": "mongodb+srv://ctalkep:r0y9x4w1q2@cluster0.wl2fy.mongodb.net/Weather?retryWrites=true&w=majority",
+	"apiUri": "https://api.openweathermap.org/data/2.5/onecall?lat=53.9&lon=27.56&exclude=minutely,hourly&appid=ef663b81e30536d84bcc21a31416b2fc&units=metric",
+	"days": 3
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test post request</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		fetch('http://localhost:5000/api/dailyWeather')
+			.then(res => res.json())
+			.then(json => {
+				document.body.innerHTML = JSON.stringify(json.minsk);
+				console.log(json.minsk)
+			})
+			.catch(err => console.log(err.message));
+
+	</script>
+
+</body>
+</html>
